@@ -1,12 +1,12 @@
 // _soal 1
 
-// let firstNumber = prompt("input angka pertama");
-// let secondNumber = prompt("input angka kedua");
-// let hasilBagi = firstNumber / secondNumber;
-// let hasilKuadrat = Math.pow(firstNumber, secondNumber);
+let firstNumber = prompt("input angka pertama");
+let secondNumber = prompt("input angka kedua");
+let hasilBagi = firstNumber / secondNumber;
+let hasilKuadrat = Math.pow(firstNumber, secondNumber);
 
-// alert(firstNumber + " dibagi " + secondNumber + " adalah " + hasilBagi);
-// alert(firstNumber + " kuadrat " + secondNumber + " adalah " + hasilKuadrat);
+alert(`${firstNumber} dibagi ${secondNumber} adalah ${hasilBagi}`);
+alert(`${firstNumber} kuadrat ${secondNumber}  adalah ${hasilKuadrat}`);
 
 // _soal 3
 
@@ -24,6 +24,6 @@ yesterday.setDate(yesterday.getDate() - 1);
 
 // _soal 5
 
-let x = prompt("input karakter");
+// let x = prompt("input karakter");
 let jumlahKarakter = x.length;
-prompt("jumlah karakter " + x + " adalah " + jumlahKarakter);
+// prompt("jumlah karakter " + x + " adalah " + jumlahKarakter);
